@@ -1,5 +1,6 @@
+# original source: https://github.com/getintodevops/jenkins-withdocker
 FROM jenkins/jenkins:jdk11
-MAINTAINER miiro@getintodevops.com
+MAINTAINER kimos@g1project.net
 USER root
 
 # Install the latest Docker CE binaries
