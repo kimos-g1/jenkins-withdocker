@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:lts
+FROM jenkins/jenkins:jdk11
 MAINTAINER miiro@getintodevops.com
 USER root
 
