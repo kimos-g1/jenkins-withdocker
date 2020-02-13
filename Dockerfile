@@ -16,5 +16,7 @@ RUN apt-get update && \
       $(lsb_release -cs) \
       stable" && \
    apt-get update && \
-   apt-get -y install docker-ce
-
+   apt-get -y install docker-ce && \
+   apt-get -y install postgresql-client && \
+   curl -sL https://deb.nodesource.com/setup_13.x | bash - && \
+   apt-get install -y nodejs
